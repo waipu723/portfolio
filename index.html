@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Seojun Lee의 개인 포트폴리오" />
+  <title>Seojun Lee | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">SL.</a>
+
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button id="themeToggle" class="icon-button" type="button" aria-label="테마 변경">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">COMPUTER ENGINEERING · AI · SOFTWARE</p>
+        <h1>
+          Hi, I'm
+          <span>Seojun Lee.</span>
+        </h1>
+
+        <p class="hero-description">
+          새로운 아이디어를 직접 구현하며 배우는 컴퓨터공학 전공자입니다.
+          머신러닝부터 데스크톱 앱, 크로스플랫폼 애플리케이션까지
+          <strong>기술을 실제로 사용할 수 있는 프로그램</strong>으로 만드는 과정에 관심이 있습니다.
+        </p>
+
+        <blockquote>
+          “꿈은 크게 갖자. 그래야 부숴져도 그 조각이 클 테니까.”
+        </blockquote>
+
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">View Projects</a>
+          <a class="button ghost" href="https://github.com/waipu723" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+
+      <aside class="hero-card" aria-label="프로필 요약">
+        <div class="status-row">
+          <span class="status-dot"></span>
+          <span>Currently building & learning</span>
+        </div>
+
+        <div class="mini-profile">
+          <div class="avatar-placeholder">SL</div>
+          <div>
+            <strong>Seojun Lee</strong>
+            <p>Computer Engineering Student</p>
+          </div>
+        </div>
+
+        <div class="quick-info">
+          <div>
+            <span>Focus</span>
+            <strong>AI / Apps</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>macOS / Flutter</strong>
+          </div>
+          <div>
+            <span>Style</span>
+            <strong>Build → Test → Improve</strong>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>좋은 기술을, 실제 사람이 쓰는 프로그램으로.</h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card">
+          <h3>What I care about</h3>
+          <p>
+            단순히 모델 성능이나 기능 구현에 그치지 않고,
+            사용자가 직접 체감할 수 있는 형태로 기술을 완성하는 것에 관심이 있습니다.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <h3>How I learn</h3>
+          <p>
+            아이디어를 먼저 작게 구현하고, 실행하면서 생기는 오류와 불편을 고쳐 나가는 방식으로 배웁니다.
+          </p>
+        </article>
+
+        <article class="glass-card">
+          <h3>Current interests</h3>
+          <p>
+            Artificial Intelligence, Machine Learning, Desktop Applications,
+            Cross-platform Applications, Software Engineering
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">FEATURED PROJECTS</p>
+        <h2>직접 만든 프로젝트</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card featured">
+          <div class="project-top">
+            <span class="project-index">01</span>
+            <span class="project-badge">Private</span>
+          </div>
+
+          <h3>🦊 Eevee Desktop</h3>
+          <p class="project-subtitle">macOS Desktop Pet Application</p>
+          <p>
+            macOS 바탕화면 위에서 이브이가 걷고, 쉬고, 성장하고, 전투하는 데스크톱 펫 앱입니다.
+            투명 창, 8방향 이동, 성장 시스템, 장신구 수집, 배경 해금과 저장 기능을 구현했습니다.
+          </p>
+
+          <ul>
+            <li>Swift / AppKit 기반 투명 데스크톱 창</li>
+            <li>JavaScriptCore + WebKit 게임 로직</li>
+            <li>성장 · 친밀도 · 턴제 전투 · 장신구 시스템</li>
+            <li>모델/UI/애니메이션 검증 테스트</li>
+          </ul>
+
+          <div class="tags">
+            <span>Swift</span>
+            <span>AppKit</span>
+            <span>JavaScript</span>
+            <span>WebKit</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-index">02</span>
+            <a href="https://github.com/waipu723/calories-machine-runing" target="_blank" rel="noreferrer">Repository ↗</a>
+          </div>
+
+          <h3>🔥 Calories Burned Prediction</h3>
+          <p class="project-subtitle">Machine Learning Regression</p>
+          <p>
+            운동 및 신체 데이터를 기반으로 소모 칼로리를 예측하고,
+            여러 회귀 모델의 성능을 MAE로 비교한 머신러닝 프로젝트입니다.
+          </p>
+
+          <ul>
+            <li>15,000개 데이터 전처리 및 EDA</li>
+            <li>Linear / Lasso / Ridge / Random Forest / XGBoost 비교</li>
+            <li>XGBoost Validation MAE 약 10.12</li>
+          </ul>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
+            <span>XGBoost</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="project-index">03</span>
+            <a href="https://github.com/waipu723/poketmon_quiz" target="_blank" rel="noreferrer">Repository ↗</a>
+          </div>
+
+          <h3>⚡ Pokémon Battle Quiz</h3>
+          <p class="project-subtitle">Flutter Battle Logic Quiz</p>
+          <p>
+            랜덤 포켓몬 전투 상황에서 가장 효과적인 기술을 선택하는 퀴즈 앱입니다.
+            타입 상성뿐 아니라 STAB, 물리/특수 공격, 방어 능력치를 함께 계산합니다.
+          </p>
+
+          <ul>
+            <li>1세대 포켓몬 151종 JSON 데이터</li>
+            <li>타입 상성 · 면역 · 이중 타입 계산</li>
+            <li>선택 기술과 최적 기술의 예상 데미지 비교</li>
+          </ul>
+
+          <div class="tags">
+            <span>Flutter</span>
+            <span>Dart</span>
+            <span>JSON</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">TECH STACK</p>
+        <h2>사용 기술</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-group">
+          <span>Languages</span>
+          <div class="skill-list">
+            <strong>Python</strong>
+            <strong>Swift</strong>
+            <strong>Dart</strong>
+            <strong>JavaScript</strong>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span>App Development</span>
+          <div class="skill-list">
+            <strong>Flutter</strong>
+            <strong>AppKit</strong>
+            <strong>WebKit</strong>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span>AI / Data</span>
+          <div class="skill-list">
+            <strong>Pandas</strong>
+            <strong>NumPy</strong>
+            <strong>Scikit-learn</strong>
+            <strong>XGBoost</strong>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <span>Tools</span>
+          <div class="skill-list">
+            <strong>Git</strong>
+            <strong>GitHub</strong>
+            <strong>VS Code</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Let's build something useful.</h2>
+      <p>
+        현재 프로젝트와 공부 기록은 GitHub에서 확인할 수 있습니다.
+      </p>
+
+      <a class="button primary" href="https://github.com/waipu723" target="_blank" rel="noreferrer">
+        github.com/waipu723 ↗
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Seojun Lee</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
